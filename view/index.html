@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Your description">
+    <meta name="author" content="Your name">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+
+    <!-- Webpage Title -->
+    <title>Track Me</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<!-- Favicon  -->
+    <link rel="icon" href="images/logo.jpg">  
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.css">
+  <link href="css/style1.css" rel="stylesheet">
+</head>
+
+<body ng-app="BlankApp" ng-cloak>
+  <!-- Navigation -->
+    <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
+        <div class="container">
+
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.jpg" alt="alternative"></a> 
+
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text" href="index.html">Zinc</a> -->
+
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+   <!-- Header -->
+   <header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-xl-5">
+                <div class="text-container">
+                    <div class="section-title">Welcome to trak me interface</div></p>
+                    <a class="btn-solid-lg" id="vpAll" onClick="buttonAllClicked()"  href="#services">Traking my cars</a>
+                    <p>Le traceur GPS ou tracker GPS en anglais, est un outil de géolocalisation des biens. Ce produit, est aujourd’hui largement démocratisé, et connaît diverses utilisations. Pour certains professionnels, comme les gestionnaires de flotte, c’est une solution idéale. Elle va leur permettre à distance de gérer une flotte de véhicules. C’est également une solution efficace pour les entreprises qui ont investi dans du matériel professionnel spécifique et coûteux et souhaitent le sécuriser. Cette solution de géolocalisation GPS a plusieurs avantages non négligeables pour ce type d’entreprise.                        <p>
+                </div> <!-- end of text-container -->
+            </div> <!-- end of col -->
+            <div class="col-lg-6 col-xl-7">
+                <div class="image-container">
+                    <img class="img-fluid" height="200" src="images/header-illustration.jpg" alt="alternative">
+                </div> <!-- end of image-container -->
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+   </header> <!-- end of header -->
+<!-- end of header -->
+<div id="services" class="cards-1">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="row">
+                <!-- Card -->
+                    <div class="card">
+                        <div id = "v1" class="led-green"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Vehicle 1</h5>     
+                            <button class="btn-solid-lg" id="vp1" onClick="button1Clicked()" style="margin-bottom: 1em;">Trak</button>
+                            <button class="btn-solid-lg" onClick="button11Clicked()">Contact</button>                                
+                        </div>
+                    </div>
+                </div>
+                <!-- end of card -->
+
+                <div class="row">
+                <!-- Card -->
+                <div class="card">
+                    <div id = "v2" class="led-green"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Vehicle 2</h5> 
+                        <button class="btn-solid-lg" id="vp2" onClick="button2Clicked()" style="margin-bottom: 1em;">Trak</button><br>  
+                        <button class="btn-solid-lg" onClick="button21Clicked()">Contact</button>                                     
+                    </div>
+                </div>
+                <!-- end of card -->
+            </div>
+
+          </div>
+          <div class="col-md-8" style="height: 1200px;">
+             <div id="map"></div>
+          </div>
+          <div class="col-md-2">
+            <div class="row">
+                <!-- Card -->
+                <div class="card">
+                    <div id = "v3" class="led-green"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Vehicle 3</h5>  
+                        <button class="btn-solid-lg" id="vp3" onClick="button3Clicked()" style="margin-bottom: 1em;">Trak</button><br>
+                        <button class="btn-solid-lg" onClick="button31Clicked()">Contact</button>                             
+                    </div>
+                </div>
+                <!-- end of card -->
+                </div>
+                <div class="row">
+                <!-- Card -->
+                <div class="card">
+                    <div id = "v4" class="led-green"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Vehicle 4</h5>                     
+                        <button class="btn-solid-lg" id="vp4" onClick="button4Clicked()" style="margin-bottom: 1em;">Trak</button><br>
+                        <button class="btn-solid-lg" onClick="button41Clicked()">Contact</button>                   
+                    </div>
+                </div>
+                <!-- end of card -->
+             </div> <!-- end of row -->
+          </div>
+        </div>
+    
+    </div> <!-- end of container -->
+    </div> <!-- end of cards-1 -->
+    <!-- end of services -->
+    <div class="copyright bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                
+                </div> 
+                <div class="col-lg-3">
+                    <p class="p-small statement">Copyright © <a href="#">LAHBIB Abdallah</a></p>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <!-- Back To Top Button -->
+    <button onclick="topFunction()" id="myBtn">
+        <img src="images/up-arrow.png" alt="alternative">
+    </button>
+<!-- end of back to top button -->
+    
+<!-- Scripts -->
+<script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+<script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+<script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+<script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+<script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <audio src="assets/siren.mp3" loop="true" id='siren' type="audio/mp3"></audio>
+    
+  
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.js"></script>
+  
+  <!-- Your application bootstrap  -->
+  <script type="text/javascript">    
+    /**
+     * You must include the dependency on 'ngMaterial' 
+     */
+    angular.module('BlankApp', ['ngMaterial', 'ngMessages']);
+  </script>
+  <!-- Replace the value of the key parameter with your own API key. -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrw_K0_t8zYQO4rp596zclMXdghiEtTe4&callback=initMap">
+</script>
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+

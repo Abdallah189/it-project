@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "374547067151",
+    "firebase_url": "https://gps-tracker-abf75-default-rtdb.firebaseio.com",
+    "project_id": "gps-tracker-abf75",
+    "storage_bucket": "gps-tracker-abf75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374547067151:android:c63ab53f5d74a93b24ce7a",
+        "android_client_info": {
+          "package_name": "com.abdallah.gpstraker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374547067151-fhcgn4dhec46gt1iqrggvrv5a99e7dd8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1TrcoGNszWqGYuSrm91mgmeHqYpxDvj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374547067151-fhcgn4dhec46gt1iqrggvrv5a99e7dd8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374547067151:android:cdde47ab3024e6d524ce7a",
+        "android_client_info": {
+          "package_name": "me.fahimabrar.transporttracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374547067151-fhcgn4dhec46gt1iqrggvrv5a99e7dd8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1TrcoGNszWqGYuSrm91mgmeHqYpxDvj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374547067151-fhcgn4dhec46gt1iqrggvrv5a99e7dd8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

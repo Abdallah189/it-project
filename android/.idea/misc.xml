@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/alarm.xml" value="0.12962962962962962" />
+        <entry key="app/src/main/res/drawable/alarm_button.xml" value="0.12962962962962962" />
+        <entry key="app/src/main/res/drawable/alarm_on_button.xml" value="0.12962962962962962" />
+        <entry key="app/src/main/res/drawable/alarm_pressed.xml" value="0.12962962962962962" />
+        <entry key="app/src/main/res/drawable/background.xml" value="0.12962962962962962" />
+        <entry key="app/src/main/res/drawable/ic_send_black_24dp.xml" value="0.12962962962962962" />
+        <entry key="app/src/main/res/drawable/layout_bg.xml" value="0.2824074074074074" />
+        <entry key="app/src/main/res/drawable/logout_pressed.xml" value="0.12962962962962962" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.11775362318840579" />
+        <entry key="app/src/main/res/layout/activity_tracker.xml" value="0.11271529888551166" />
+        <entry key="app/src/main/res/layout/background.xml" value="0.16621376811594202" />
+        <entry key="app/src/main/res/layout/custom_dialog.xml" value="0.11775362318840579" />
+        <entry key="app/src/main/res/layout/row_chat.xml" value="0.23177083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
